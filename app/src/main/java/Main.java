@@ -13,5 +13,10 @@ public class Main {
         Dog dog = new Dog("猫");
         dog.makeSound();
         dog.swim();
+
+        //演習4.5
+        Bird bird = new Bird("旧Twitter");
+        bird.makeSound();
+        bird.fly();
     }
 }
