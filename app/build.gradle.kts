@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass.set("ex4.App")
+    mainClass.set("Main")
 }
 
 tasks.named<Test>("test") {
