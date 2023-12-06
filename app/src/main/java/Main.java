@@ -8,5 +8,10 @@ public class Main {
         //演習4.3
         Cat cat = new Cat("ポチ");
         cat.makeSound();
+
+        //演習4.4
+        Dog dog = new Dog("猫");
+        dog.makeSound();
+        dog.swim();
     }
 }

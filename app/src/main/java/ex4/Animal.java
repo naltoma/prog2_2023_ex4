@@ -7,7 +7,11 @@ public class Animal {
         this.name = _name;
     }
 
+    public String getName(){
+        return this.name;
+    }
+
     public void makeSound(){
-        System.out.println("Animal");
+        System.out.println(this.name + "が鳴いている");
     }    
 }
